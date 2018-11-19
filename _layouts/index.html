@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<div id="index">
+{% for post in site.posts %}
+<div class="blogPost">
+<li><h2><a href="{{ post.url }}">{{ post.title }}</a></h2></li>
+</div>
+{% endfor %}
+</div>
